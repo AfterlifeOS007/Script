@@ -6,6 +6,7 @@ rm -rf .repo/local_manifests/
 repo init -u https://github.com/SuperiorOS/manifest.git -b fourteen --git-lfs
 # repo sync
 /opt/crave/resync.sh
+rm -rf device/xiaomi/mojito
 # cloning DT
 # device tree
 git clone https://github.com/SuperiorOS07/device_xiaomi_mojito.git --depth 1 -b mojito-universe device/xiaomi/mojito
