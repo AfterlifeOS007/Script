@@ -22,5 +22,7 @@ git clone https://github.com/AfterlifeOS007/android_hardware_xiaomi.git --depth 
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git --depth 1 -b lineage-21.0 packages/resources/devicesettings
 # set build environment
 . build/envsetup.sh
+# Missing Required Module
+BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 # lunch
 goafterlife mojito
