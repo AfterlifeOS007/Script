@@ -2,17 +2,17 @@
 <manifest>
  
 <!-- Kernel -->
-<project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="udc_new" />
+<project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" remote="github" revision="udc_new" />
 
 <!-- HALs -->
-<project path="hardware/mithorium-4.19" name="MI439-CLO/android_hardware_mithorium-4.19" remote="github" clone-depth="1" revision="udc-k4.19" />
+<project path="hardware/mithorium-4.19" name="MI439-CLO/android_hardware_mithorium-4.19" remote="github" revision="udc-k4.19" />
 
 <!-- Device -->
 <project path="device/xiaomi/mi439" name="Gtajisan/device_xiaomi_mi439" remote="github" revision="pixelstar/14" />
 <project path="device/qcom/common" name="MI439-CLO/device_qcom_common" remote="github" revision="udc-3" />
 
 <!-- Vendor Blobs -->
-<project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="udc" />
-<project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="uvite" />
+<project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" revision="udc" />
+<project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="uvite" />
 
 </manifest>
