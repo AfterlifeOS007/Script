@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-
-
-<!-- v4x -->
- <project path="packages/apps/ViPER4AndroidFX" name="Gtajisan/packages_apps_ViPER4AndroidFX" remote="github" revision="v4a" />
-      
-<!-- Apps -->
-<project path="packages/apps/GrapheneCam" name="MI439-CLO/android_packages_apps_GrapheneCam" remote="github" revision="topaz" clone-depth="1" />
-
+ 
 <!-- Kernel -->
 <project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="udc_new" />
 
@@ -25,8 +17,5 @@
 <!--- Vendor Blobs -->
 <project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="udc" />
 <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="uvite" />
-
-<!-- Vendor Opensource -->
-<project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
 
 </manifest>
