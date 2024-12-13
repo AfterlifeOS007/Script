@@ -9,7 +9,7 @@ echo "Repo init success"
 echo "=================="
 
 # Local manifests
-git clone https://github.com/Gtajisan/local_manifests -b a15/crd .repo/local_manifests
+git clone https://github.com/Sachinpawar86/local_manifest -b Evo-15 .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -28,7 +28,7 @@ echo "============="
 # echo "============="
 
 # Export
-export BUILD_USERNAME=FARHAN 
+export BUILD_USERNAME=Sachin
 export BUILD_HOSTNAME=crave
 echo "======= Export Done ======"
 
@@ -37,7 +37,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch lineage_Mi439_4_19-userdebug || lunch lineage_Mi439_4_19-ap2a-userdebug || lunch lineage_Mi439_4_19-ap3a-userdebug 
+lunch lineage_mojito-userdebug || lunch lineage_mojito-ap2a-userdebug || lunch lineage_mojito-ap3a-userdebug 
 echo "============="
 
 # Make cleaninstall
